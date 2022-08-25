@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hotel-box {
+    border: 1px solid #ddd;
+}
+.book-box {
+    border: 1px solid #ddd;
+}
+.form-group.request-box {
+    padding: 8px;
+    border: 1px solid #dbdbdb;
+    color: #262626;
+    font-weight: 300;
+}
+.payment-mode {
+    border-bottom: 1px solid
+    #e4e2e2;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+.profile label {
+    font-weight: 500;
+}
+.label:not(:last-child) {
+    margin-right: 15px;
+}
+.book-table {
+    border: 1px solid
+    #d7d5d5;
+    padding: 30px;
+    border-radius: 4px;
+}
+table {
+    border-collapse: collapse;
+}
+.book-table table tr {
+    border-bottom: 1px solid #e4e2e2;
+}
+.book-table table tr td {
+    padding: 15px 0;
+    color: #484848;
+    font-size: 13px;
+}
+.book-table table tr td h3 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+.book-table table tr td img {
+    height: 100px;
+    border-radius: 2px;
+}
+.img-fluid {
+    max-width: 100%;
+}
+.book-table table tr:first-child td:first-child {
+    width: 60%;
+}
+.book-table table tr td:nth-child(2) {
+    text-align: right;
+}
+.verify-btn-sm {
+    background: #5cc385;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 7px 31px;
+    border-radius: 0 3px 3px 0;
+}
+.book-now-btn {
+    background: #5cc385;
+    border: none;
+    border-radius: 2px;
+    letter-spacing: .35px;
+    font-weight: 500;
+    padding: 12px 35px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    line-height: 1;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.bookingDetail {
+    margin-top: 20px;
+}
+.bookingDetail p {
+    margin: 0 0 5px 0;
+}
+
+img.sp-image {
+    margin-top: -120px !important;
+}
+
+div#top_tools {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    z-index: 999;
+}
+
+.menu-item li {
+    float: right;
+    padding-right: 10px;
+    font-size: small;
+}
+
+span.question {
+    font-weight: bold;
+    color: #000;
+}
+
+.common-content ul, .in-ex ol, .in-ex ul, .terms ol, .terms ul {
+    padding: 0;
+    margin: 25px 0 50px;
+    counter-reset: number-counter;
+}
+
+.common-content ul li, .in-ex ol li, .in-ex ul li, .terms ol li, .terms ul li {
+    position: relative;
+    padding-left: 20px;
+    margin: 15px 0;
+    color: #3f4144;
+}
+
+button.btn.btn-sm.btn-success {
+    height: 36px;
+}
+
+span.errorMessage.text-danger.text-center.text-bold {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+small.successTextColor.text-success{
+    font-weight: bold;
+}
